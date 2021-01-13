@@ -134,7 +134,9 @@ float: right;
 
 form input[type="text"],
 form input[type="password"],
-form input[type="email"]{
+form input[type="email"],
+form input[type="number"],
+select{
     padding: 5px;
     border-radius: 2px;
     border: 1px solid #ccc;
@@ -227,4 +229,24 @@ height: 250px !important;
     width: 30%;
     padding: 30px;
     margin: 0px auto;
+}
+#form_contact{
+    width: 50%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#form_contact label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.form-error{
+    /*float: right;*/
+    font-size: 11px;
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 100%;
 }
